@@ -13,7 +13,7 @@ const StartGettingAppointmentsInTwoWeeks = () => {
 				</h1>
 				<p className="text-gray-800 sm:mt-20">
 					<span>
-						Improved results over time is a guarantee. We continuously optimize our strategies to always find the most
+						Improved results over time is our guarantee. We continuously optimize our strategies to always find the most
 						”up to date” pain points for your ideal customer.
 					</span>
 					<br></br>

@@ -8,12 +8,12 @@ const WhatWeDo = () => {
 			<div className="w-full max-w-3xl text-left sm:text-center pb-11 mx-auto">
 				<h1 className="sm:text-4xl md:text-5xl text-2xl font-bold leading-tight">
 					<span>
-						Get 20-80 sales calles every signle month <br />
+						Get 20-80 sales calles every single month <br />
 						<br />
 					</span>
 				</h1>
 				<p className="text-white mt-6">
-					<span>We will handle all of the technical bits that you don't want to be bothered with... and more. 👇</span>
+					<span>We will handle all of the technical bits so that you don't have to... and more. 👇</span>
 				</p>
 			</div>
 			<div className="text-white w-full justify-left sm:justify-center flex">
@@ -25,7 +25,6 @@ const WhatWeDo = () => {
 					<li>Video scripts</li>
 					<li>Pre/post call sequence</li>
 					<li>Offer/product placement</li>
-					<li>Sales consulting</li>
 				</ul>
 			</div>
 			<div className="w-full max-w-3xl text-left sm:text-center pb-11 mx-auto">

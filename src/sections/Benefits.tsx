@@ -19,7 +19,7 @@ const Benefits = () => {
 				<InfoBlock
 					emoji="🔍" // Emoji for "Lead Scraping and Research"
 					heading="Lead Scraping and Research"
-					text="We will find prospects, validate their data, and enrich existing lists with up-to-date info based on your requirements"
+					text="We will find prospects, validate their data, and enrich existing lists with up-to-date info based on your requirements."
 				/>
 				<InfoBlock
 					emoji="🤖" // Emoji for "AI Email Automation"

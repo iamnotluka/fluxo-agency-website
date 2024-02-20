@@ -10,7 +10,7 @@ const Testimonials = () => {
 					</span>
 				</h1>
 				<p className="text-gray-800 mt-6">
-					<span>We will handle all of the technical bits that you don't want to be bothered with... and more. 👇</span>
+					<span>Some amazing people we worked with say that we are funny.</span>
 				</p>
 			</div>
 		</div>
