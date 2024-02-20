@@ -27,7 +27,7 @@ const WhatWeDo = () => {
 					<li>Offer/product placement</li>
 				</ul>
 			</div>
-			<div className="w-full max-w-3xl text-left sm:text-center pb-11 mx-auto">
+			<div className="w-full max-w-3xl text-left sm:text-center mx-auto">
 				<button
 					onClick={() => {
 						navigate("/demo");
