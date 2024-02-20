@@ -8,7 +8,7 @@ const WhatWeDo = () => {
 			<div className="w-full max-w-3xl text-left sm:text-center pb-11 mx-auto">
 				<h1 className="sm:text-4xl md:text-5xl text-2xl font-bold leading-tight">
 					<span>
-						Get 20-80 sales calles every single month <br />
+						Get 20-80 sales calls every single month <br />
 						<br />
 					</span>
 				</h1>
