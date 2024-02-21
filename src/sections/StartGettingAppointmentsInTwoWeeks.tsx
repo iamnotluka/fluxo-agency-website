@@ -23,7 +23,7 @@ const StartGettingAppointmentsInTwoWeeks = () => {
 					<InfoBlock dark={true} heading="⏳ 120+ Hours Saved" text="Monthly time saved for our clients." />
 					<InfoBlock
 						dark={true}
-						heading="💌 89%+ Open Rate"
+						heading="💌 82%+ Open Rate"
 						text="Our average open rate has most of the time been above the industry benchmark."
 					/>
 				</div>
