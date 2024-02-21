@@ -15,14 +15,18 @@ const Hero = () => {
 						know-how and a results-first philosophy.
 					</span>
 				</p>
-				<button
+				{/* <button
 					onClick={() => {
 						navigate("/demo");
 					}}
-					className="mt-8 sm:bg-transparent bg-black sm:border-2 sm:border-black sm:text-black text-white font-semibold py-4 px-6 hover:bg-black hover:text-white transition duration-150 ease-in-out w-full sm:w-auto"
 				>
 					Watch demo
-				</button>
+				</button> */}
+				<a href="https://calendly.com/fluxo-agency/get-started" target="_blank" rel="noreferrer">
+					<button className="mt-8 sm:bg-transparent bg-black sm:border-2 sm:border-black sm:text-black text-white font-semibold py-4 px-6 hover:bg-black hover:text-white transition duration-150 ease-in-out w-full sm:w-auto">
+						Learn More
+					</button>
+				</a>
 			</div>
 		</div>
 	);
