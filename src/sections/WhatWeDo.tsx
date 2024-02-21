@@ -1,8 +1,4 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-
 const WhatWeDo = () => {
-	const navigate = useNavigate();
 	return (
 		<div className="bg-black text-white sm:py-20 md:py-24 py-16 px-4">
 			<div className="w-full max-w-3xl text-left sm:text-center pb-11 mx-auto">
@@ -28,14 +24,19 @@ const WhatWeDo = () => {
 				</ul>
 			</div>
 			<div className="w-full max-w-3xl text-left sm:text-center mx-auto">
-				<button
+				{/* <button
 					onClick={() => {
 						navigate("/demo");
 					}}
 					className="mt-10 sm:bg-transparent bg-white sm:border-2 sm:border-white sm:text-white text-black font-semibold py-4 px-6 sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto"
 				>
 					Learn more
-				</button>
+				</button> */}
+				<a href="https://calendly.com/fluxo-agency/get-started" target="_blank" rel="noreferrer">
+					<button className="mt-10 sm:bg-transparent bg-white sm:border-2 sm:border-white sm:text-white text-black font-semibold py-4 px-6 sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto">
+						Learn more
+					</button>
+				</a>
 			</div>
 		</div>
 	);

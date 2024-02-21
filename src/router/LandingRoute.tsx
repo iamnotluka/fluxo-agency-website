@@ -14,7 +14,7 @@ const LandingRoute = () => {
 			<Hero />
 			<Benefits />
 			<WhatWeDo />
-			{/* <Testimonials /> */}
+			<Testimonials />
 			<StartGettingAppointmentsInTwoWeeks />
 			<BookMeeting />
 			<Footer />
