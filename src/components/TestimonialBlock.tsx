@@ -6,7 +6,7 @@ interface TestimonialBlockProps {
 
 const TestimonialBlock: React.FC<TestimonialBlockProps> = ({ content }) => {
 	return (
-		<div className="flex flex-col justify-center bg-black h-full pt-6 mb-5">
+		<div className="flex flex-col justify-center bg-black md:h-full pt-6 mb-5">
 			<div className="pt-6">
 				<p className="text-white text-lg px-3">"{content.quote}"</p>
 				<div className="flex items-center mt-4 w-full border-2 border-black px-1">
