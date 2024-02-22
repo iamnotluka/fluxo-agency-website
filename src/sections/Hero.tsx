@@ -1,13 +1,11 @@
 import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
-	const navigate = useNavigate();
-
 	return (
 		<div className="bg-white text-black sm:py-20 md:py-24 py-10 pb-4 px-4">
 			<div className="w-full max-w-3xl text-left sm:text-center pb-11 mx-auto">
 				<h1 className="sm:text-5xl md:text-6xl text-4xl font-bold sm:leading-tight">
-					<span>Crush your sales quota with ROI-centric lead generation! 🚀</span>
+					<span>Your go to ROI-centric B2B client acquisition partner! 🚀</span>
 				</h1>
 				<p className="text-gray-800 mt-6">
 					<span>
