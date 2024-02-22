@@ -14,7 +14,7 @@ const Header = () => {
 					<img className="max-h-12 mx-auto sm:mx-0" src="/fluxo-agency-logo.png" alt="FLUXO Agency Logo" />
 				</div>
 			</button>
-			<a href="https://calendly.com/fluxo-agency/get-started" target="_blank" rel="noreferrer">
+			<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
 				<button className="bg-black hidden sm:block text-white font-semibold py-4 px-6 hover:bg-gray-800 transition duration-150 ease-in-out">
 					Get Started
 				</button>
