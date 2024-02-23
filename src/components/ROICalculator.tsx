@@ -67,25 +67,25 @@ const ROICalculator = () => {
 					<p className="text-2xl font-bold mt-5">1. How quickly do you want to scale?</p>
 					<br></br>
 					<button
-						className={`sm:bg-transparent ${
-							customerInputData.emailsSent === emailsSentInput.takeItEasy ? "bg-white" : "text-white "
-						} sm:border-2 sm:border-white sm:text-white text-black text-left font-semibold py-4 px-6 sm:mx-5 border-2 border-white sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto`}
+						className={`${
+							customerInputData.emailsSent === emailsSentInput.takeItEasy ? "bg-white text-black" : "text-white"
+						} sm:border-2 sm:border-white  border-2 border-white text-left text-black font-semibold py-4 px-6 sm:mx-5 sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto`}
 						onClick={() => handleChangeEmails(emailsSentInput.takeItEasy)}
 					>
 						🌱 Take it easy...
 					</button>
 					<button
-						className={`mt-10 sm:bg-transparent ${
-							customerInputData.emailsSent === emailsSentInput.normal ? "bg-white" : "text-white"
-						} sm:border-2 sm:border-white sm:text-white text-black text-left font-semibold py-4 px-6 sm:mx-5 border-2 border-white sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto`}
+						className={`mt-10 ${
+							customerInputData.emailsSent === emailsSentInput.normal ? "bg-white text-black" : "text-white"
+						} sm:border-2 sm:border-white  border-2 border-white text-left text-black font-semibold py-4 px-6 sm:mx-5 sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto`}
 						onClick={() => handleChangeEmails(emailsSentInput.normal)}
 					>
 						🫡 Do what you've always done
 					</button>
 					<button
-						className={`mt-10 sm:bg-transparent ${
-							customerInputData.emailsSent === emailsSentInput.toTheMoon ? "bg-white" : "text-white"
-						} sm:border-2 sm:border-white  border-2 border-white text-left sm:text-white text-black font-semibold py-4 px-6 sm:mx-5 sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto`}
+						className={`mt-10 ${
+							customerInputData.emailsSent === emailsSentInput.toTheMoon ? "bg-white text-black" : "text-white"
+						} sm:border-2 sm:border-white  border-2 border-white text-left text-black font-semibold py-4 px-6 sm:mx-5 sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto`}
 						onClick={() => handleChangeEmails(emailsSentInput.toTheMoon)}
 					>
 						🚀 To the moon!
