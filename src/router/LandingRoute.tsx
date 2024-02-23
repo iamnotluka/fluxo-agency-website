@@ -6,7 +6,7 @@ import StartGettingAppointmentsInTwoWeeks from "../sections/StartGettingAppointm
 import Footer from "../components/Footer";
 import BookMeeting from "../sections/BookMeeting";
 import Testimonials from "../sections/Testimonials";
-import PriceCalculator from "../components/PriceCalculator";
+import ROICalculator from "../components/ROICalculator";
 
 const LandingRoute = () => {
 	return (
@@ -17,7 +17,7 @@ const LandingRoute = () => {
 			<WhatWeDo />
 			<Testimonials />
 			<StartGettingAppointmentsInTwoWeeks />
-			<PriceCalculator />
+			<ROICalculator />
 			<BookMeeting />
 			<Footer />
 		</div>

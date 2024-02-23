@@ -7,7 +7,7 @@ const emailsSentInput = {
 	toTheMoon: [30000, 40000],
 };
 
-const PriceCalculator = () => {
+const ROICalculator = () => {
 	const [customerInputData, setCustomerInputData] = useState({
 		closingRate: 15,
 		averageDealSize: 6000,
@@ -51,7 +51,7 @@ const PriceCalculator = () => {
 		<div className="bg-black text-white sm:pb-20 md:pb-24 py-16 px-4">
 			<div className="w-full max-w-3xl text-left sm:text-center mx-auto">
 				<h1 className="sm:text-4xl md:text-5xl text-2xl font-bold leading-tight">
-					<span>📊 Price Calculator</span>
+					<span>📊 ROI Calculator</span>
 				</h1>
 				<p className="text-white mt-5 sm:mt-10">
 					<span>
@@ -157,4 +157,4 @@ const PriceCalculator = () => {
 	);
 };
 
-export default PriceCalculator;
+export default ROICalculator;
