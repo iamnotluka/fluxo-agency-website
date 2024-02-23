@@ -13,7 +13,7 @@ const BookMeeting = () => {
 				</p>
 				<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
 					<button className="mt-10 sm:bg-transparent bg-white sm:border-2 sm:border-white sm:text-white text-black font-semibold py-4 px-6 sm:hover:bg-white sm:hover:text-black transition duration-150 ease-in-out w-full sm:w-auto">
-						Book a Call
+						Show Me How!
 					</button>
 				</a>
 			</div>

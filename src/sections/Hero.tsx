@@ -1,5 +1,3 @@
-import { useNavigate } from "react-router-dom";
-
 const Hero = () => {
 	return (
 		<div className="bg-white text-black sm:py-20 md:py-24 py-10 pb-4 px-4">

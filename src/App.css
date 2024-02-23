@@ -29,3 +29,23 @@ body {
 	color: green; /* Icon color */
 	font-weight: 900; /* Ensure the solid style is used */
 }
+
+/* YourComponent.css */
+.slider-thumb::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 30px; /* Increased size for a bigger thumb */
+	height: 30px; /* Increased size for a bigger thumb */
+	border-radius: 50%; /* Makes the thumb a circle */
+	background: white; /* Thumb color */
+	cursor: pointer;
+}
+
+.slider-thumb::-moz-range-thumb {
+	width: 30px; /* Increased size for a bigger thumb */
+	height: 30px; /* Increased size for a bigger thumb */
+	border-radius: 50%; /* Makes the thumb a circle */
+	background: white; /* Thumb color */
+	cursor: pointer;
+	border: 2px solid black; /* Optional: adds a border around the thumb */
+}
