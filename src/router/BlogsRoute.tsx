@@ -15,7 +15,7 @@ const blogs: Blog[] = [
 		title: "Secrets to quickly scaling a B2B business!",
 		shortDescription: "A-Z guide to starting a business.",
 		date: "27 February 2024",
-		content: "",
+		content: "scaling_business_quickly.txt",
 	},
 ];
 
@@ -23,7 +23,6 @@ const BlogsRoute = () => {
 	return (
 		<div>
 			<Header />
-
 			<Footer />
 		</div>
 	);
