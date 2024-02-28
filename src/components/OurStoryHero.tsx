@@ -157,8 +157,9 @@ const OurStoryHero = () => {
 							We're eager to learn about your journey and explore how we can propel you forward.
 						</p>
 						<br></br>
-						Best,<br></br>
-						luka@
+						Best,
+						<br></br>
+						<strong>Luka</strong>, Founder at Fluxo
 						<br />
 					</div>
 				</div>

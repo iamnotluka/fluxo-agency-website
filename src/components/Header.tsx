@@ -24,7 +24,7 @@ const Header = () => {
 	}, []);
 
 	return (
-		<div className="top-0 sticky z-52 ">
+		<div className="top-0 sticky z-10 ">
 			<div className="bg-white sm:px-16 px-4 flex justify-between justify-left items-center w-full">
 				<button
 					onClick={() => {
