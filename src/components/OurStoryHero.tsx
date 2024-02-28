@@ -6,9 +6,9 @@ const OurStoryHero = () => {
 					<h1 className="sm:text-5xl md:text-6xl text-4xl font-bold sm:leading-tight">
 						<span>Fluxo... our story!</span>
 					</h1>
-					<p className="py-2 text-sm text-gray-200">
+					{/* <p className="py-2 text-sm text-gray-200">
 						Last updated: <span className="font-bold">28th February 2024</span>
-					</p>
+					</p> */}
 				</div>
 			</div>
 			<div className="bg-white text-black sm:py-10 md:py-10 py-5 pb-4 px-4">

@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Blog from "../components/Blog";
 
 interface Blog {
 	image: string;
@@ -23,6 +24,7 @@ const BlogsRoute = () => {
 	return (
 		<div>
 			<Header />
+			<Blog />
 			<Footer />
 		</div>
 	);

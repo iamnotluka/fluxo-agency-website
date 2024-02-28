@@ -56,16 +56,16 @@ const Header = () => {
 							Our story
 						</button>
 					</div>
-					{/* <div className="p-4 mr-6">
+					<div className="p-4 mr-6">
 						<button
 							onClick={() => {
-								navigate("/blog");
+								navigate("/blogs");
 							}}
 							className="font-bold text-black hover:text-gray-800 transition duration-150 ease-in-out"
 						>
 							Blog
 						</button>
-					</div> */}
+					</div>
 					<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
 						<button className="bg-black text-white font-semibold py-4 px-6 hover:bg-gray-800 transition duration-150 ease-in-out">
 							Get Started
