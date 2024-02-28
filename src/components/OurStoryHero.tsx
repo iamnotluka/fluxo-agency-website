@@ -2,7 +2,7 @@ const OurStoryHero = () => {
 	return (
 		<div className="bg-white text-black sm:py-20 md:py-24 py-10 pb-4 px-4">
 			<div className="w-full max-w-3xl text-left sm:text-center pb-11 mx-auto">
-				<h1 className="sm:text-5xl md:text-6xl text-4xl font-bold sm:leading-tight">
+				<h1 className="sm:text-4xl md:text-5xl text-3xl font-bold sm:leading-tight">
 					<span>Fluxo... our story!</span>
 				</h1>
 				<p className="pt-2 pb-6 text-gray-600">
@@ -19,40 +19,48 @@ const OurStoryHero = () => {
 					<p>Not just tweaking systems, but igniting real, measurable and explosive growth.</p>
 					<br />
 					<p>
-						At Amazon, I was one of the people untangling complex problems. All while being surrounded by genius product
-						oriented people thinking from the customers perspective like our lives depend on it.
+						At Amazon, as a software engineer, I was one of the people untangling complex problems. All while being
+						surrounded by genius product oriented people thinking from the customers perspective like our lives depend
+						on it.
 					</p>
 					<br />
 					<p>
-						It was an amazing time, yet something was missing. I longed to blend the precision of data with the nuances
+						It was an amazing time, yet something was missing. I wanted to blend the precision of data with the nuances
 						of human psychology.
 					</p>
 					<br />
-					<p>
-						That's when I discovered the magic of paid ads. It was like alchemy - the mix of right elements: deploy,
-						watch the data, tweak and behold a steady stream of leads and sales.
-					</p>
-					<br />
-					<p>But there is a twist. Let me pain a picture.</p>
+					<p>That's when I discovered the magic of paid ads.</p>
 					<br />
 					<p>
-						Imagine this: You've launched a campaign for a client in the home improvement niche, roofing to be exact.
-						It's a Monday morning, coffee in hand, you click “Publish” on the ads. That buggy Meta Ads Platform screen
-						refreshes and you see a little “Active” sign along your campaigns. Leads start trickling in. So far, so
-						good.
+						It was like alchemy - the mix of right elements: deploy, watch the data, tweak and behold a steady stream of
+						leads and sales.
+					</p>
+					<br />
+					<p>Sounds too good to be true? You're exactly right!</p>
+					<br />
+					<p>Let me pain a picture:</p>
+					<br />
+					<p>
+						You've launched a campaign for a client in the home improvement niche, roofing to be exact. It's a Monday
+						morning, coffee in hand, you click “Publish” on the ads.
+					</p>
+					<br />
+					<p>That buggy Meta Ads Platform screen refreshes and you see a little “Active” sign along your campaigns.</p>
+					<br />
+					<p>Sooner or later leads start trickling in. So far, so good.</p>
+					<br />
+					<p>
+						Two weeks in, you've netted your client 21 leads on a $500 ad spend. You look at your clients CRM and he's
+						already done 5 quotes, $85,000 in the pipeline from the modest investment.
 					</p>
 					<br />
 					<p>
-						Two weeks in, you've netted 21 leads on a $500 ad spend. You look at your clients CRM and he's already done
-						5 quotes, $85,000 in the pipeline from the modest investment.
+						To your surprise, instead of a mild praise - you get a frustrated response from the client who is strictly
+						focused only on the upfront cost - even though just one of the deals going through would result in him
+						covering the marketing expenses for next 6 months.
 					</p>
 					<br />
-					<p>
-						Yet again, instead of a mild praise from the client - you get a frustrated response from the client who is
-						strictly focused only on the upfront cost.
-					</p>
-					<br />
-					<p>Sounds familiar? Confusing? I was confused as well.</p>
+					<p>Sounds familiar? Parhaps confusing? Don't worry. I was confused as well.</p>
 					<br />
 					<p>
 						However, this is something every agency owner had to deal with and for most of us, this was the eureka
@@ -79,24 +87,41 @@ const OurStoryHero = () => {
 					<p>That's when I hit the wall.</p>
 					<br />
 					<p>
-						I pondered a pivot, but the usual retainer models with their lofty promises and lacklustre guarantees - just
-						weren't for me. I knew I could deliver, I just needed clients who were ready to meet me halfway. I needed to
-						be more than a service provider, I needed to be a partner in true success.
+						I pondered a pivot, but the usual retainer models with their lofty promises and guarantees - just weren't
+						for me.
 					</p>
 					<br />
 					<p>
-						And then, the lightbulb moment: What outreach method works without having to spend little to no money at
-						all? How do we cut out the ad spend all together?
+						I worked stricly comission based. I knew I could deliver, I just needed clients who were ready to meet me
+						halfway. I needed to be more than a service provider, I needed to be a partner in true success.
+					</p>
+					<br />
+					<p>And then, the lightbulb moment:</p>
+					<br />
+					<p>
+						What outreach method works without having to spend little to no money at all? <br></br>
+						<strong>
+							<br /> What if we are able to cut the ad spend all together!?
+						</strong>
 					</p>
 					<br />
 					<p>
-						Enter email marketing. Yes, emails. Direct, potent and precise. A way to connect directly with those who
-						need you the most, without the scattergun approach of paid ads and reliance on Meta's algorithms.
+						Enter email marketing. <br />
+						<br />
+						Yes, emails. <br />
+						<br />
+						Direct, potent and precise.
+						<br />
+						<br />A way to connect directly with those who need you the most, without the scattergun approach of paid
+						ads and reliance on Meta's or Googles algorithms.
 					</p>
 					<br />
-					<p>Imagine a system where we can do this at scale. Turns out, there is a way to do it.</p>
+					<p>Imagine a system where we can do this at scale.</p>
 					<br />
-					<p>Building a system that just works and scaling it without breaking the bank.</p>
+					<p>
+						Turns out, there is a way to do it. Building a system that just works and scaling it without breaking the
+						bank.
+					</p>
 					<br />
 					<p>30,000 personalised emails vs $500 ad budget. Think about it for a second.</p>
 					<br />
@@ -115,10 +140,15 @@ const OurStoryHero = () => {
 						best, by doing what we do the best.
 					</p>
 					<br />
-					<p>Ready to chat? We're eager to learn about your journey and explore how we can propel you forward.</p>
+					<p>
+						Ready to chat? <br />
+						<br />
+						We're eager to learn about your journey and explore how we can propel you forward.
+					</p>
 					<br></br>
 					Best,<br></br>
-					Luka - founder of flexo
+					luka@
+					<br />
 				</div>
 			</div>
 		</div>

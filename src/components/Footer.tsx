@@ -4,7 +4,7 @@ const Footer = () => {
 	const navigate = useNavigate();
 
 	return (
-		<div className="bg-white sm:px-16 px-4 flex sm:justify-between justify-left items-center w-full border-t-2 border-black">
+		<div className="bg-white sm:px-16 px-4 flex justify-between justify-left items-center w-full border-t-2 border-black">
 			<button
 				onClick={() => {
 					navigate("/");
