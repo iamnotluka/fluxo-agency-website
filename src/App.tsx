@@ -4,6 +4,7 @@ import LandingRoute from "./router/LandingRoute";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import AboutRoute from "./router/AboutRoute";
+import BlogsRoute from "./router/BlogsRoute";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 					<Route path="*" element={<LandingRoute />}></Route>
 					<Route path="demo" element={<DemoRoute />}></Route>
 					<Route path="our-story" element={<AboutRoute />}></Route>
+					<Route path="blogs" element={<BlogsRoute />}></Route>
 				</Routes>
 			</BrowserRouter>
 		</div>
