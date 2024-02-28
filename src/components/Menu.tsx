@@ -15,7 +15,7 @@ const Menu = () => {
 					Demo
 				</button>
 			</div> */}
-			<div className="p-2 py-4">
+			<div className="p-2 pb-4">
 				<button
 					onClick={() => {
 						navigate("/our-story");
