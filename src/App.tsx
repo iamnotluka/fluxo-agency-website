@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import AboutRoute from "./router/AboutRoute";
 import BlogsRoute from "./router/BlogsRoute";
+import ProgressBar from "./components/ProgressBar";
 
 function App() {
 	return (

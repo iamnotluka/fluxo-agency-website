@@ -49,3 +49,15 @@ body {
 	cursor: pointer;
 	border: 2px solid black; /* Optional: adds a border around the thumb */
 }
+
+.progress-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: linear-gradient(to right, #ac5cf7, #e91e63, #f8a729);
+	color: #fff; /* Change to your desired text color */
+	padding: 2px 0; /* Adjust the padding as needed */
+	text-align: center;
+	z-index: 100; /* Ensure it appears above other content */
+	width: 0; /* Initial width is 0 */
+}

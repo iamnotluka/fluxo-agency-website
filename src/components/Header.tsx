@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Menu from "./Menu";
+import ProgressBar from "./ProgressBar";
 
 const Header = () => {
 	const navigate = useNavigate();
@@ -23,7 +24,7 @@ const Header = () => {
 	}, []);
 
 	return (
-		<div className="top-0 sticky z-50 ">
+		<div className="top-0 sticky z-52 ">
 			<div className="bg-white sm:px-16 px-4 flex justify-between justify-left items-center w-full">
 				<button
 					onClick={() => {
@@ -56,7 +57,7 @@ const Header = () => {
 							Our story
 						</button>
 					</div>
-					<div className="p-4 mr-6">
+					{/* <div className="p-4 mr-6">
 						<button
 							onClick={() => {
 								navigate("/blogs");
@@ -65,7 +66,7 @@ const Header = () => {
 						>
 							Blog
 						</button>
-					</div>
+					</div> */}
 					<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
 						<button className="bg-black text-white font-semibold py-4 px-6 hover:bg-gray-800 transition duration-150 ease-in-out">
 							Get Started
@@ -98,6 +99,7 @@ const Header = () => {
 			>
 				<Menu />
 			</div>
+			<ProgressBar />
 		</div>
 	);
 };
