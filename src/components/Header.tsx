@@ -99,7 +99,7 @@ const Header = () => {
 			>
 				<Menu />
 			</div>
-			<ProgressBar />
+			{/* <ProgressBar /> */}
 		</div>
 	);
 };
