@@ -1,7 +1,7 @@
 const OurStoryHero = () => {
 	return (
 		<div>
-			<div className="bg-black text-white sm:py-20 md:py-24 py-10 py-2 px-4">
+			<div className="bg-black text-white sm:py-20 md:py-24 py-2 px-4">
 				<div className="w-full max-w-3xl text-left sm:text-center py-11 mx-auto">
 					<h1 className="sm:text-5xl md:text-6xl text-4xl font-bold sm:leading-tight">
 						<span>Our story</span>
