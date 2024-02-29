@@ -19,13 +19,13 @@ export interface BlogType {
 
 const blogs: BlogType[] = [
 	{
-		title: "Solving B2B Problems at Scale",
+		title: "🔍 Solving B2B Problems at Scale",
 		shortDescription: "How to essentially start any service based business.",
 		date: "27 February 2024",
 		content: "scaling_business_quickly.txt",
 	},
 	{
-		title: "Placibo Effect of Positive Thinking",
+		title: "💭 Placibo Effect of Positive Thinking",
 		shortDescription: "Why you should think positively for the sake of thinking positively.",
 		date: "15 December 2023",
 		content: "why_be_positive.txt",
