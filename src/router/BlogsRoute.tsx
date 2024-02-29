@@ -68,7 +68,7 @@ const BlogsRoute = () => {
 							<h1 className="sm:text-5xl md:text-6xl text-4xl font-bold sm:leading-tight">
 								<span>Blog</span>
 							</h1>
-							<p className="py-2 text-white">Hope you find something useful!</p>
+							{/* <p className="py-2 text-white">Hope you find something useful!</p> */}
 						</div>
 					</div>
 					<div className="sm:py-20 pb-20">
