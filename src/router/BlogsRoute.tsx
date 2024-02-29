@@ -24,12 +24,12 @@ const blogs: BlogType[] = [
 		date: "27 February 2024",
 		content: "scaling_business_quickly.txt",
 	},
-	{
-		title: "💭 Placibo Effect of Positive Thinking",
-		shortDescription: "Why you should think positively for the sake of thinking positively.",
-		date: "15 December 2023",
-		content: "why_be_positive.txt",
-	},
+	// {
+	// 	title: "💭 Placibo Effect of Positive Thinking",
+	// 	shortDescription: "Why you should think positively for the sake of thinking positively.",
+	// 	date: "15 December 2023",
+	// 	content: "why_be_positive.txt",
+	// },
 ];
 
 const BlogsRoute = () => {
