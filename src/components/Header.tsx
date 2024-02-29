@@ -1,7 +1,6 @@
-import React, { useEffect, useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import Menu from "./Menu";
-import ProgressBar from "./ProgressBar";
 
 const Header = () => {
 	const navigate = useNavigate();
@@ -11,7 +10,11 @@ const Header = () => {
 		setIsMenuOpen(!isMenuOpen);
 	};
 
+	const location = useLocation();
+
 	useEffect(() => {
+		setIsMenuOpen(false);
+
 		const handleScroll = () => {
 			setIsMenuOpen(false);
 		};
@@ -21,7 +24,7 @@ const Header = () => {
 		return () => {
 			window.removeEventListener("scroll", handleScroll);
 		};
-	}, []);
+	}, [location]);
 
 	return (
 		<div className="top-0 sticky z-10 ">
@@ -57,7 +60,7 @@ const Header = () => {
 							Our story
 						</button>
 					</div>
-					{/* <div className="p-4 mr-6">
+					<div className="p-4 mr-6">
 						<button
 							onClick={() => {
 								navigate("/blogs");
@@ -66,10 +69,10 @@ const Header = () => {
 						>
 							Blog
 						</button>
-					</div> */}
+					</div>
 					<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
 						<button className="bg-black text-white font-semibold py-4 px-6 hover:bg-gray-800 transition duration-150 ease-in-out">
-							Get Started
+							Work with us
 						</button>
 					</a>
 				</div>
@@ -94,12 +97,11 @@ const Header = () => {
 			{/* Dropdown Menu with Slide-Down Animation */}
 			<div
 				className={`overflow-hidden transition-all duration-500 border-b-2 bg-white border-black ${
-					isMenuOpen ? "h-36" : "h-0"
+					isMenuOpen ? "h-48" : "h-0"
 				}`}
 			>
 				<Menu />
 			</div>
-			{/* <ProgressBar /> */}
 		</div>
 	);
 };

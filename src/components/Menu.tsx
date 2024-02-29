@@ -18,6 +18,16 @@ const Menu = () => {
 			<div className="p-2 pb-4">
 				<button
 					onClick={() => {
+						navigate("/blogs");
+					}}
+					className="font-bold text-black hover:text-gray-800 transition duration-150 ease-in-out"
+				>
+					Blog
+				</button>
+			</div>
+			<div className="p-2 pb-4">
+				<button
+					onClick={() => {
 						navigate("/our-story");
 					}}
 					className="font-bold text-black hover:text-gray-800 transition duration-150 ease-in-out"
@@ -36,7 +46,7 @@ const Menu = () => {
 			<div className="">
 				<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
 					<button className="bg-black text-white font-semibold w-full text-left py-2 px-6 my-3 hover:bg-gray-800 transition duration-150 ease-in-out">
-						Get Started
+						Work with us
 					</button>
 				</a>
 			</div>

@@ -4,7 +4,7 @@ const OurStoryHero = () => {
 			<div className="bg-black text-white sm:py-20 md:py-24 py-10 py-2 px-4">
 				<div className="w-full max-w-3xl text-left sm:text-center py-11 mx-auto">
 					<h1 className="sm:text-5xl md:text-6xl text-4xl font-bold sm:leading-tight">
-						<span>Fluxo... our story!</span>
+						<span>Our story</span>
 					</h1>
 					{/* <p className="py-2 text-sm text-gray-200">
 						Last updated: <span className="font-bold">28th February 2024</span>
@@ -13,7 +13,7 @@ const OurStoryHero = () => {
 			</div>
 			<div className="bg-white text-black sm:py-10 md:py-10 py-5 pb-4 px-4">
 				<div className="w-full max-w-3xl text-left sm:text-center pb-11 mx-auto">
-					<div className="text-left text-lg bg-white">
+					<div className="text-left bg-white">
 						<p>Dear person exploring our very own website,</p>
 						<br></br>
 						<p>
