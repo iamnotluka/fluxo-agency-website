@@ -17,7 +17,11 @@ const InfoBlock = ({ emoji, heading, text, dark, date }: InfoBlockProps) => {
 			<h3 className={`pt-4 text-xl w-full ${dark ? "text-black" : "text-gray-100"} font-bold`}>{heading}</h3>
 			<p className="pt-4 pb-4 w-full">{text}</p>
 			<p className="text-xs">
-				<strong>Date:</strong> {date}
+				{date && (
+					<div>
+						<strong>Date:</strong> {date}
+					</div>
+				)}
 			</p>
 		</div>
 	);
