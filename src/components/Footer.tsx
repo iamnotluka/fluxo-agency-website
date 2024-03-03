@@ -14,7 +14,23 @@ const Footer = () => {
 					<img className="max-h-12 mx-auto sm:mx-0" src="/fluxo-agency-logo.png" alt="FLUXO Agency Logo" />
 				</div>
 			</button>
-			<p className="text-xs text-right text-gray-500">Copyright: © 2023 FLEXO Agency</p>
+			<p className="text-xs text-right text-gray-500 hidden md:block">Copyright: © 2023 FLEXO Agency</p>
+			<div className="text-right">
+				<button
+					onClick={() => {
+						navigate("/privacy-policy");
+					}}
+				>
+					<p className="pr-4 text-xs text-right text-gray-500">Privacy Policy</p>
+				</button>
+				<button
+					onClick={() => {
+						navigate("/terms-and-conditions");
+					}}
+				>
+					<p className="text-xs text-right text-gray-500">Terms & Conditions</p>
+				</button>
+			</div>
 		</div>
 	);
 };

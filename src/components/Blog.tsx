@@ -1,7 +1,6 @@
 import { BlogType } from "../router/BlogsRoute";
 import { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
-import { useNavigate } from "react-router-dom";
 
 interface BlogProps {
 	blog: BlogType;

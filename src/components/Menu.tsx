@@ -5,16 +5,16 @@ const Menu = () => {
 
 	return (
 		<div className="p-4">
-			{/* <div className="px-2 pb-2">
-				<button
+			<div className="px-2 pb-2">
+				{/* <button
 					onClick={() => {
-						navigate("/demo");
+						navigate("/hyper-scale-automation");
 					}}
 					className="font-bold text-black hover:text-gray-800 transition duration-150 ease-in-out"
 				>
-					Demo
-				</button>
-			</div> */}
+					HyperScale Outbound System
+				</button> */}
+			</div>
 			<div className="p-2 pb-4">
 				<button
 					onClick={() => {

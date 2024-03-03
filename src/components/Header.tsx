@@ -43,11 +43,11 @@ const Header = () => {
 					{/* <div className="p-4">
 						<button
 							onClick={() => {
-								navigate("/demo");
+								navigate("/hyper-scale-automation");
 							}}
 							className="font-bold text-black hover:text-gray-800 transition duration-150 ease-in-out"
 						>
-							Demo
+							HyperScale
 						</button>
 					</div> */}
 					<div className="p-4 mr-5">
