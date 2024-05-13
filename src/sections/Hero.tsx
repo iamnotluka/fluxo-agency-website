@@ -18,7 +18,7 @@ const Hero = () => {
 				>
 					Watch demo
 				</button> */}
-				<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
+				<a href="https://tidycal.com/fluxo-agency" target="_blank" rel="noreferrer">
 					<button className="mt-8 sm:bg-transparent bg-black sm:border-2 sm:border-black sm:text-black text-white font-semibold py-4 px-6 hover:bg-black hover:text-white transition duration-150 ease-in-out w-full sm:w-auto">
 						Learn More
 					</button>

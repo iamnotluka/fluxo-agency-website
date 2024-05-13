@@ -18,7 +18,7 @@ const HyperScaleRoute = () => {
 							predictable, less stressful.
 						</span>
 					</p>
-					<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
+					<a href="https://tidycal.com/fluxo-agency" target="_blank" rel="noreferrer">
 						<button className="mt-8 sm:bg-transparent bg-white sm:border-2 sm:border-white sm:text-white text-black font-semibold py-4 px-6 hover:bg-white hover:text-black transition duration-150 ease-in-out w-full sm:w-auto">
 							Free Strategy Call
 						</button>

@@ -44,7 +44,7 @@ const Menu = () => {
 			</div> */}
 
 			<div className="">
-				<a href="https://calendly.com/fluxo-agency/free-strategy-call" target="_blank" rel="noreferrer">
+				<a href="https://tidycal.com/fluxo-agency" target="_blank" rel="noreferrer">
 					<button className="bg-black text-white font-semibold w-full text-left py-2 px-6 my-3 hover:bg-gray-800 transition duration-150 ease-in-out">
 						Work with us
 					</button>
